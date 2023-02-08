@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Laila:wght@300&family=Poppins&family=Rubik:wght@300&display=swap');
+
+/* font-family: 'Exo 2', sans-serif;
+font-family: 'Laila', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif; */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Laila', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+:root{
+    --bg1:#214050;
+    --bg2:#294e61;
+}
+#navBar{
+background-color:var(--bg1);
+display: grid;
+grid-template-columns: auto auto;
+justify-content: space-between;
+padding: 5px;
+position: sticky;
+top: 0px;
+z-index: 1000;
+}
+#logo{
+font-size: 20px;
+margin-left: 30px;
+font-weight: bold;
+}
+#navLink{
+    margin-right: 30px;
+}
+.navAnchor{
+    text-decoration: none;
+    margin-right: 10px;
+}
+.navAnchor:hover{
+    font-style: italic;;
+    font-weight: bold;
+    border-bottom: 2px yellow solid;
+    transition: 0.3s ease-in-out;
+}
+
+#homeSection{
+    background-color: var(--bg2);
+    display: flex;
+    min-height:500px
+} 
+
+#image{
+    width:40%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+} 
+#myImg{
+    height:500px;
+}
+
+#skillTag{
+width:60%;
+} 
+
+#skill{
+    padding: 20px;
+    text-align: center;
+    min-height:30%;
+}
+h4,span{
+    color:yellow
+}
+
+#tagField{   
+    min-height:70%;
+    padding: 20px;
+} 
+#sk{
+    font-size: 10px 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.progressBar{
+    width:100%;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    outline: 1px solid rgb(84, 121, 152);
+}
+.progressBar:hover{
+    outline: 1px solid aliceblue;
+    box-shadow: 1px 1px 5px 3px rgb(175, 169, 169);
+}
+#htm{
+    background-color: rgb(12, 39, 39);
+    margin-bottom: 25px;
+    border-radius: 15px 0px 0px 15px;
+    padding: 1px;
+    font-size: 12px;
+    outline: none;
+    width: 87%;
+    text-align:center;
+}
+#cs{
+    background-color: rgb(12, 39, 39);
+    margin-bottom: 25px;
+    border-radius: 15px 0px 0px 15px;
+    padding: 1px;
+    font-size: 12px;
+    outline: none;
+    width: 75%;
+    text-align:center;
+} 
+#jsc{
+    background-color: rgb(12, 39, 39);
+    margin-bottom: 25px;
+    border-radius: 15px 0px 0px 15px;
+    padding: 1px;
+    font-size: 12px;
+    outline: none;
+    width: 55%;
+    text-align:center;
+} 
+#java{
+    background-color: rgb(12, 39, 39);
+    margin-bottom: 25px;
+    border-radius: 15px 0px 0px 15px;
+    padding: 1px;
+    font-size: 12px;
+    outline: none;
+    width: 40%;
+    text-align:center;
+} 
+#py{
+    background-color: rgb(12, 39, 39);
+    margin-bottom: 25px;
+    border-radius: 15px 0px 0px 15px;
+    padding: 1px;
+    font-size: 12px;
+    outline: none;
+    width: 27%;
+    text-align:center;
+} 
+#msoffice{
+    background-color: rgb(12, 39, 39);
+    margin-bottom: 25px;
+    border-radius: 15px 0px 0px 15px;
+    padding: 1px;
+    font-size: 12px;
+    outline: none;
+    width: 90%;
+    text-align:center;
+}
+#msoffice i{
+    font-size: 10px;
+}
+#photoShop{
+    background-color: rgb(12, 39, 39);
+    margin-bottom: 25px;
+    border-radius: 15px 0px 0px 15px;
+    padding: 1px;
+    font-size: 12px;
+    outline: none;
+    width: 67%;
+    text-align:center;
+}
+
+#projectSection{
+background:var(--bg1);
+padding: 40px 10px;
+}
+#hrtxt{
+    display: flex;
+    justify-content: center;
+}
+#hrtxt h2{
+    border: 1px solid whitesmoke;
+    padding: 2px 5px;
+    width:max-content;
+    text-align: center;
+    border-radius: 5px;
+    transform: translateY(-24px);
+    background:var(--bg1);
+}
+#card{
+
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+}
+.projectCard{
+    background-color: rgb(43, 74, 90);
+    margin: 28px;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+.projectCard:hover{
+    background-color: rgb(68, 121, 121);
+    box-shadow: 0px 0px 10px rgb(46, 149, 149);
+    transform: scale(1.03);
+    transition: 0.3s;
+    outline: 1px solid rgb(219, 238, 235);
+}
+.projectImg img{
+    height:100px;
+    min-width:100%;
+    border-radius: 10px;
+}
+.btnProject{
+    padding: 10px 10px;
+    border-radius: 20px;
+    background-color: rgb(5, 102, 158);
+    color: white;
+    border: none;
+    margin:10px 0px;
+    margin-top: 20px;
+}
+.btnProject a{
+    font-family: 'poppins', sans-serif;
+}
+.btnProject:hover{
+    padding: 10px 10px;
+    border-radius: 20px;
+    background-color: rgb(7, 89, 114);
+    color: white;
+    border: none;
+    margin:10px 0px;
+    margin-top: 20px;
+    font-family: 'poppins', sans-serif;
+}
+#contactUs{
+    background-color: var(--bg2);
+    display: grid;
+    grid-template-columns: auto;
+}
+.contactMsg{
+text-align: center;
+margin: 20px;
+font-size: 20px;
+}
+.conttactForm{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.feedbackForm{
+
+    background-color: rgb(230, 227, 227);
+    margin: 20px auto;
+    border-radius: 10px;
+}
+#feedTxt{
+        background: rgb(83, 4, 4);
+        padding: 25px;
+        border-radius: 10px 10px 50% 50%;
+        text-align: center;
+}
+#feedPara{
+    color: yellow;
+    font-weight: bold;
+    font-size: 20px;
+}
+.formQue{
+    padding: 20px 10px;
+    color: black;
+    font-weight: bold;
+    margin: 10px;
+}
+.msgFeed{
+    margin-left:20px;
+}
+.formQue input,textarea{
+    margin-top: 20px;
+    width:210px;
+    color: rgb(50, 1, 1);
+    outline: 1px groove #214050;
+    border-radius: 5px;
+    padding: 5px;
+}
+.formQue span{
+    color: black;    
+}
+#btnMsg{
+    padding: 5px 20px;
+    border-radius: 15px;
+    background-color: var(--bg1);
+    border: none;
+    outline: 2px solid rgb(241, 241, 180);
+    margin-left:40%;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.socialConnect{
+align-items: center;
+text-align: center;
+padding: 10px 0px;
+display:grid;
+grid-template-columns: auto auto auto;
+justify-content: space-evenly;
+}
+.SocialIcon{
+    font-size: 40px;
+}
+.iconNetwork{
+margin: 10px;
+padding: 5px;
+}
+.iconNetwork b{
+    /* display: none; */
+}
+.iconNetwork:hover{
+    text-shadow: 0px 0px 4px white;
+}
+
+#footerSection{ 
+    background-color: var(--bg1);
+    padding:10px 0px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1100px) {
+    #card{
+        grid-template-columns: auto auto auto;
+    }
+    .socialConnect{
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media screen and (max-width:800px) {
+    #image{
+        width:50%;
+    }
+    #skillTag{
+        width:50%;
+    }
+    #myImg{
+        height:400px;
+    }
+    #card{
+        grid-template-columns: auto auto;
+    }
+    .conttactForm{
+        grid-template-columns: auto;
+    }
+
+}
+@media screen and (max-width:550px) {
+    #image{
+        display: none;
+    }
+    #skillTag{
+        width:100%;
+    }
+    #card{
+        grid-template-columns: auto;
+    }
+    .projectCard{
+        width:60vw;
+    }
+}
